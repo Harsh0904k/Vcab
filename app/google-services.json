@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174019103884",
+    "project_id": "vcab-3717d",
+    "storage_bucket": "vcab-3717d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174019103884:android:e16e6a6563a1d514c03fa9",
+        "android_client_info": {
+          "package_name": "com.hk.vcab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrmTqxJK6TGEMKk3S774DOCdQW1DYikPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

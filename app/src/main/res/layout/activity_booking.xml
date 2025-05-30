@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Select Pickup Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <Spinner
+            android:id="@+id/pickupSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Select Drop Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <Spinner
+            android:id="@+id/dropSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:hint="Select Travel Date"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp" />
+
+        <EditText
+            android:id="@+id/timeEditText"
+            android:hint="Select Travel Time"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCarType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/car_type_array" />
+
+        <EditText
+            android:id="@+id/editPassengerCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Passengers"
+            android:inputType="number" />
+
+
+
+        <Button
+            android:id="@+id/bookButton"
+            android:text="Book Ride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/viewMyBookingsButton"
+            android:text="View My Bookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/myRidesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Rides"
+            android:layout_below="@id/viewMyBookingsButton"
+            android:layout_marginTop="16dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

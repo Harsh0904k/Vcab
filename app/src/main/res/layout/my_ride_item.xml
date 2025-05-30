@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rideItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/card_background"
+    android:layout_marginBottom="12dp"
+    android:elevation="4dp"
+    android:layout_marginHorizontal="12dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/myRideDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ride Details"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="6dp" />
+
+    <TextView
+        android:id="@+id/rideTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Info or User List"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnLeaveRide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave Ride"
+            android:backgroundTint="#FF5252"
+            android:textColor="#FFFFFF"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="2dp" />
+    </LinearLayout>
+</LinearLayout>

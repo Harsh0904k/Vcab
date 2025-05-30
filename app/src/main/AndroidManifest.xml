@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hk.vcab">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vcab"
+        tools:targetApi="31">
+
+        <!-- First screen: Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Vcab">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab" />
+
+        <!-- Booking Activity -->
+        <activity
+            android:name=".BookingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab" />
+
+        <!-- Match Activity -->
+        <activity
+            android:name=".MatchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab" />
+
+        <activity android:name=".MyBookingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab"/>
+
+        <activity android:name=".EditBookingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab"/>
+
+        <activity android:name=".MatchedRidesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab"/>
+
+        <activity android:name=".MyRidesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab"/>
+
+        <activity android:name=".DriverDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Vcab"
+
+            />
+
+
+    </application>
+
+</manifest>
